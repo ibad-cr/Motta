@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/motta.css">
+    <title>Motta 2</title>
+  </head>
+  <body>
+
+    <div id="dr-and-lg" class="light">
+      <nav class="navbar" style="background-image: url('https://motta.uix.store/wp-content/uploads/2022/06/campain-bar.jpg');">
+        <div class="container-fluid d-flex justify-content-center gap-3">
+            <a class="navbar-brand change" style="font-size: 15px; font-weight: 700; color: #4d3f2f;">Limited Time Only: Up to 60% off Dining Furniture</a>
+            <a class="change" href="#" style="color: #4d3f2f; font-weight: 600;">Shop Now</a>
+        </div>
+      </nav>
+
+      <button class="btn btn-primary mybutton-js" style="color: white;"> <i class="fa-solid fa-globe" style="color: white;"></i>
+        <span class="spanen">EN</span>
+      </button>
+
+     <header>
+      <div class="container drop-none">
+        <nav class="navbar navbar-expand-lg">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-size: 14px;">
+                  <!-- <li class="nav-item">
+                    <button class="btn btn-primary mybutton-js" style="color: white;"> <i class="fa-solid fa-globe"></i>
+                       EN
+                    </button>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" style="color: #7c818b;"> <i class="fa-solid fa-money-bill"></i> USD</a>
+                  </li>
+                </ul>
+                <span class="navbar-text" style="font-size: 14px;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap: 20px;">
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: #7c818b;"> <i class="fa-solid fa-box"></i> Track Order</a>
+                        </li>
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: #7c818b;"> <i class="fa-regular fa-circle-question"></i> Help Center</a>
+                        </li>
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: #7c818b;"> <i class="fa-solid fa-bolt"></i> Compare</a>
+                        </li>
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: #7c818b;"> <i class="fa-regular fa-heart"></i> Wishlist</a>
+                        </li>
+                    </ul>
+                </span>
+            </div>
+          </nav>    
+      </div>
+    </header>
+
+
+    <main>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg d-flex justify-content-between fl-drec">
+          <div>
+            <button class="btn btn-warning changeall">Dark</button>
+            <!-- <i class="fa-solid fa-moon changeall" style="font-size: 25px;"></i> -->
+          </div>
+            <a class="navbar-brand padddd" href="#">
+              <img src="https://motta.uix.store/wp-content/themes/motta/images/logo.svg" alt="Error">
+            </a>
+            
+            <form class="d-flex" >
+                <input class="form-control me-2" type="search" placeholder="Search for anything" aria-label="Search" 
+                style="padding: 15px; font-weight: 500;" size="70">
+                <button class="btn btn-outline-success d-flex align-items-center justify-content-center" type="submit" 
+                style="padding: 25px; border-radius: 4px; background-color: #3449ca;"> 
+                  <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+                </button>
+            </form>
+
+            <span class="navbar-text nowrapp">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap: 10px;">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"> <i class="fa-regular fa-user"></i>
+                        Account
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"> <i class="fa-solid fa-cart-shopping"></i>
+                        Cart
+                      </a>
+                    </li>
+                </ul>
+            </span>
+          </nav>    
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-3 mt-3">
+                <nav class="navbar navbar-expand-lg">
+                    <button class="navbar-toggler border-nonee" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" 
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon border-nonee"></span>
+                    </button>
+                    <div class="collapse navbar-collapse void-li" id="navbarText" style="padding-left: 30px;">
+                        <ul class="list-group" style="list-style: none; line-height: 3rem;">
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-layer-group"></i>
+                              Shop by Category</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-chair"></i> 
+                              Home & Garden</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-calculator"></i>
+                              Electronics</a></li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-shirt"></i>
+                              Fashion</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-regular fa-gem"></i>
+                              Jewelry & Accessories</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-volleyball"></i>
+                              Sports & Entertainment</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-person-breastfeeding"></i>
+                              Mother & Kids</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-notes-medical"></i>
+                              Beauty & Health</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-gamepad"></i>
+                              Toys & Games</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-car-side"></i>
+                              Automobiles & Motorcycles</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-palette"></i>
+                              Collectibles & Art</a>
+                            </li>
+                            <li class="list-group-items change"><a href="#" style="text-decoration: none; color: inherit;"> <i class="fa-solid fa-paint-roller"></i>
+                              Tools & Home Improvement</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-9">
+                <nav class="navbar navbar-expand-lg drop-none">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse mt-3 mb-3" id="navbarText">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="gap: 40px; font-size: 17px; padding-left: 20px; font-weight: bolder;">
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: inherit;">Home</a>
+                        </li>
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: inherit;" >Shop</a>
+                        </li>
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: inherit;">Features</a>
+                        </li>
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: inherit;">Pages</a>
+                        </li>
+                        <li class="nav-item change">
+                          <a class="nav-link active" aria-current="page" href="#" style="color: inherit;">Blog</a>
+                        </li>
+                      </ul>
+                      <span class="navbar-text">
+                          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item change">
+                                <a class="nav-link active" aria-current="page" href="#" 
+                                  style="gap: 40px; font-size: 17px;font-weight: bolder;">
+                                  Shop Today’s Deals
+                                </a>
+                              </li>
+                          </ul>
+                      </span>
+                  </div>
+                </nav>
+
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    
+                    <div class="carousel-inner" style="border-radius: 4px;">
+                      <div class="carousel-item">
+                        <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2023/03/homev1-slider02.jpg?fit=1200%2C675&ssl=1" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2023/03/homev1-slider03.jpg?fit=1200%2C675&ssl=1" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item active">
+                        <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2023/03/homev1-slider01.jpg?fit=1200%2C675&ssl=1" class="d-block w-100" alt="...">
+                        </di>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                </div>
+            </div>
+         </div>
+
+         <div class="container mt-5 mb-3">
+            <div class="col-12 col-sm-12 col-md-12">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 d-flex justify-content-between align-items-center">
+                        <h3 class="change" style="color: inherit; font-weight: bold;">Today’s Best Deals</h3>
+                        <a class="change" href="#" style="color: inherit;">See All Deals</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+
+
+         <div class="container">
+          <div class="row">
+            <div class="col-sm-3 mb-3 mb-sm-0 small-res">
+              <div class="card" style="border: none;">
+                <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2023/03/homev1-Small-Appliances.jpg?fit=534%2C800&ssl=1" 
+                class="card-img-top" alt="...">
+                <div class="card-img-overlay pad-res" style="padding: 40px; color: #648014;">
+                  <h5 class="card-title change" style="font-weight: 600; font-size: 30px; padding-bottom: 10px;">Small <br> Appliances</h5>
+                  <p class="card-text change">Up to 40% off Kitchen <br> Products.</p>
+                  <a class="change" href="#" style="color: #648014;">Show Now</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-3 mb-3 mb-sm-0 small-res">
+              <div class="card" style="border: none;">
+                <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-Premium-Beauty.jpg?fit=534%2C800&ssl=1" 
+                class="card-img-top" alt="..." >
+                <div class="card-img-overlay pad-res" style="padding: 40px; color: #94226d;">
+                  <h5 class="card-title change" style="font-weight: 600; font-size: 30px; padding-bottom: 10px;">Premium <br> Beauty</h5>
+                  <p class="card-text change">Up to 25% off Hair Care <br> Products.</p>
+                  <a class="change" href="#" style="color: #94226d;">Show Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-3 mb-3 mb-sm-0 small-res">
+              <div class="card" style="border: none;">
+                <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-Indoor-Furniture.jpg?fit=534%2C800&ssl=1" 
+                class="card-img-top" alt="...">
+                <div class="card-img-overlay pad-res" style="padding: 40px; color: #285e8d;">
+                  <h5 class="card-title change" style="font-weight: 600; font-size: 30px; padding-bottom: 10px;">Indoor <br> Furniture</h5>
+                  <p class="card-text change">Save 30% Today, Even on Furniture</p>
+                  <a class="change" href="#" style="color: #285e8d;">Show Now</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-sm-3 mb-3 mb-sm-0 small-res">
+              <div class="card" style="border: none;">
+                <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-Cell-Phones-Smartphones.jpg?fit=534%2C800&ssl=1" 
+                class="card-img-top" alt="...">
+                <div class="card-img-overlay pad-res" style="padding: 40px; color: #91553a;">
+                  <h5 class="card-title change" style="font-weight: 600; font-size: 30px; padding-bottom: 10px;">Cell Phones <br> & Smartphones</h5>
+                  <p class="card-text change">Up to 15% off Cell Phones Products</p>
+                  <a class="change" href="#" style="color: #91553a;">Show Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+         </div>
+
+
+         <div class="container mt-5">
+          <div class="col-12 col-sm-12 col-md-12">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 d-flex justify-content-between">
+                <h3 class="change">Flash Deals</h3>
+                <div class="sell d-flex">
+                  <a class="change" style="padding-right: 20px;color: inherit;">Ends in</a>
+                  <div class="boxs d-flex">
+                    <div class="box">
+                      <a style="color: white;">00</a>
+                    </div>
+                    <p>:</p>
+                    <div class="box">
+                      <a style="color: white;">00</a>
+                    </div>
+                    <p>:</p>
+                    <div class="box">
+                      <a style="color: white;">00</a>
+                    </div>
+                  </div>
+                  <a class="change" href="#" style="color: inherit; padding-left: 30px;">See All Deals</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+       
+        <div class="container mt-3">
+          <div class="row wid-1000">
+            <div class="col-4 wis-1000">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4 d-flex">
+                    <img src="https://motta.uix.store/wp-content/uploads/2022/08/moneyback.svg"
+                      class="img-fluid rounded-start" alt="..." width="80" style="margin: 0 auto;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title change" style="font-weight: bolder;">Money Back Guarantee</h5>
+                      <p class="card-text change">Get the item you ordered or your
+                        money back</p>
+                      <a class="change" href="#" style="color: #1D2127; text-decoration: none;"> Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4 wis-1000">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4 d-flex">
+                    <img src="https://motta.uix.store/wp-content/uploads/2022/08/freeshipping.svg"
+                      class="img-fluid rounded-start" alt="..." width="80" style="margin: 0 auto;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title change" style="font-weight: bolder;">Free Shipping</h5>
+                      <p class="card-text change">Free Shipping On Orders Over$100</p>
+                      <a class="change" href="#" style="color: #1D2127; text-decoration: none;">Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-4 wis-1000">
+              <div class="card mb-4" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4 d-flex ">
+                    <img src="https://motta.uix.store/wp-content/uploads/2022/08/customerservice.svg"
+                      class="img-fluid rounded-start" alt="..." width="80" style="margin: 0 auto;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title change" style="font-weight: bolder;">24/7 Customer Service</h5>
+                      <p class="card-text change">Want to talk to a person? Choosechat or call us</p>
+                      <a class="change" href="#" style="color: #1D2127; text-decoration: none; ">Get Support</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container mt-5 mb-3">
+              <div class="col-12 col-sm-12 col-md-12">
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 d-flex justify-content-between align-items-center">
+                    <h3 style="white-space: nowrap;">Our Favorite Deals This Week</h3>
+                    <div class="sell">
+                      <a href="#" style="color: inherit; white-space: nowrap;">See All Deals</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card">
+                    <img
+                      src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2023/03/homev1-kitchen-tools-accessories.jpg?fit=400%2C400&ssl=1"
+                      class="card-img-top" alt="...">
+                    <div class="card-img-overlay" style="padding: 35px;">
+                      <h5 class="card-title" style="font-weight: 600; color: white; line-height: 32px; font-size: 30px;">
+                        Kitchen Tools & <br> Accessories</h5>
+                      <p class="card-text" style="color: white;">Charming kitchenware and bohemian
+                        <br> touches worth getting out of bed for.
+                      </p>
+                      <button class="btn btn-light" style="border-radius: 4px; font-size: 14px;">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card">
+                    <img
+                      src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2023/03/homev1-Screen-free-fun.jpg?fit=400%2C400&ssl=1"
+                      class="card-img-top" alt="...">
+                    <div class="card-img-overlay" style="padding: 35px;">
+                      <h5 class="card-title" style="font-weight: 600; color: white; line-height: 32px; font-size: 30px;">
+                        Screen-free Fun, <br> Anyone?</h5>
+                      <p class="card-text" style="color: white;">From games & puzzles to arts & crafts,
+                        <br> get fun activities for every age.
+                      </p>
+                      <button class="btn btn-light" style="border-radius: 4px; font-size: 14px;">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <div class="card">
+                    <img
+                      src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2023/03/homev1-the-spring-fling.jpg?fit=400%2C400&ssl=1"
+                      class="card-img-top" alt="...">
+                    <div class="card-img-overlay" style="padding: 35px;">
+                      <h5 class="card-title" style="font-weight: 600; color: white; line-height: 32px; font-size: 30px;">
+                        The Spring <br> Fling</h5>
+                      <p class="card-text" style="color: white;">These styles, those prices, the timing —
+                        <br> I mean, it's like it was meant to be!
+                      </p>
+                      <button class="btn btn-light" style="border-radius: 4px; font-size: 14px;">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-2 size100">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-nature.png?w=340&ssl=1" alt=""
+                    style="width: 120%;">
+                </div>
+                <div class="col-2 size100">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-classic.png?w=340&ssl=1"
+                    alt="" style="width: 120%;">
+                </div>
+                <div class="col-2 size100">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-brandit.png?w=340&ssl=1"
+                    alt="" style="width: 120%;">
+                </div>
+                <div class="col-2 noresponsive">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-alisa.png?w=340&ssl=1" alt=""
+                    style="width: 120%;">
+                </div>
+                <div class="col-2 noresponsive">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-westside.png?w=340&ssl=1"
+                    alt="" style="width: 120%;">
+                </div>
+                <div class="col-2 noresponsive">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-smile.png?w=340&ssl=1" alt=""
+                    style="width: 120%;">
+                </div>
+              </div>
+            </div>
+
+            <div class="container mt-5 mb-4">
+              <div class="col-12 col-sm-12 col-md-12">
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-12 d-flex justify-content-between align-items-center">
+                    <h3>Explore More Categories</h3>
+                    <a href="#" style="color: inherit;">See All Categories </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container mb-4">
+              <div class="row">
+                <div class="col-2 image-1">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-furniture.jpg?w=400&ssl=1"
+                    alt="" class="rounded-circle rounded-img-1" style="width: 200px;">
+                  <h5 class="text-center mt-4">Furniture</h5>
+                </div>
+                <div class="col-2 image-1">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-shoes.jpg?w=400&ssl=1" alt=""
+                    class="rounded-circle rounded-img-1" style="width: 200px;">
+                  <h5 class="text-center mt-4">Shoes</h5>
+                </div>
+                <div class="col-2 image-1">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-smartphones.jpg?w=400&ssl=1"
+                    alt="" class="rounded-circle rounded-img-1" style="width: 200px;">
+                  <h5 class="text-center mt-4">Smartphones</h5>
+                </div>
+                <div class="col-2 rounded-image">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-airprufiers.jpg?w=400&ssl=1"
+                    alt="" class="rounded-circle" style="width: 200px;">
+                  <h5 class="text-center mt-4">Air Purifiers</h5>
+                </div>
+                <div class="col-2 rounded-image">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-toys.jpg?w=400&ssl=1" alt=""
+                    class="rounded-circle" style="width: 200px;">
+                  <h5 class="text-center mt-4">Toys</h5>
+                </div>
+                <div class="col-2 rounded-image">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2022/07/homev1-headphones.jpg?w=400&ssl=1"
+                    alt="" class="rounded-circle" style="width: 200px;">
+                  <h5 class="text-center mt-4">Headphones</h5>
+                </div>
+              </div>
+            </div>
+          </main>
+
+
+          <footer>
+            <div class="container">
+              <footer class="py-5">
+                <div class="row">
+                  <div class="col-6 col-md-2">
+                    <i class="fa-solid fa-phone-volume" style="font-size: 25px;"></i>
+                    <h5 style="font-size: 20px; font-weight: 500; margin-top: 15px; margin-bottom: 15px;">Call</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2" style="opacity: 95%;">Call us from 8am to <br>12am ET.</li>
+                      <li class="nav-item mb-2"><a href="#" style="text-decoration: none; color: inherit;">1-866-237-8289</a>
+                      </li>
+                    </ul>
+                  </div>
+          
+                  <div class="col-6 col-md-2">
+                    <i class="fa-regular fa-envelope" style="font-size: 25px;"></i>
+                    <h5 style="font-size: 20px; font-weight: 500; margin-top: 15px; margin-bottom: 15px;">Email</h5>
+                    <ul class="nav flex-column">
+                      <li class="nav-item mb-2">Our response time is <br>1 to 3 business days.</li>
+                      <li class="nav-item mb-2"><a href="#" style="text-decoration: none; color: inherit;">Send a Message</a>
+                      </li>
+                    </ul>
+                  </div>
+          
+                  <div class="col-md-5 offset-md-3 resmar">
+                    <form>
+                      <h5 style="font-size: 30px;">Let’s keep in touch</h5>
+                      <p style="margin-bottom: 30px;">Get recommendations, tips, updates, promotions and more.</p>
+                      <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input class="form-control" type="email" placeholder="Enter email your address"
+                          style="padding: 20px; border-radius: 0%; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;" size="70">
+                        <button class="btn btn-primary" type="button"
+                          style="padding: 20px; border-radius: 0%;">Subscribe</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </footer>
+            </div>
+          
+            <div class="accordion accor-no-see" id="accordionExample" style="padding: 30px;">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                    aria-expanded="true" aria-controls="collapseOne">
+                    Get to Know Us
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="nav flex-column" style="line-height: 2rem; font-size: 17px;">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">About Us</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">News & Blog</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Careers</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Investors</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Customer Service
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="nav flex-column" style="line-height: 2rem; font-size: 17px;">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Help Center</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQ’s</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Accessibility</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Feedback</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Size Guide</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Payment Method</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Orders & Returns
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <ul class="nav flex-column" style="line-height: 2rem; font-size: 17px;">
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Track Order</a></li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Shipping & Delivery</a>
+                      </li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Return & Exchange</a>
+                      </li>
+                      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Price Match Guarantee</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+            <div class="container">
+              <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-2 my-4">
+                <div class="col mb-3">
+                  <a href="#" class="d-flex align-items-center mb-4 link-body-emphasis text-decoration-none">
+                    <img src="https://motta.uix.store/wp-content/uploads/2022/10/Logo-v1.png" alt="">
+                  </a>
+                  <h5 class="mb-3 noresponsive" style="font-size: 18px;">Best For Shopping</h5>
+                  <p class="noresponsive">Sed do eiusmod tempor incididuntut labore dolore magna.</p>
+          
+                  <div class="social-icon d-flex justify-content-between mt-5 margin-res">
+                    <a href="#"><i class="fa-brands fa-twitter" style="font-size: 20px; opacity: 60%; color: inherit"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook" style="font-size: 20px; opacity: 60%; color: inherit"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube" style="font-size: 20px; opacity: 60%; color: inherit"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"
+                        style="font-size: 20px; opacity: 60%; color: inherit"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp" style="font-size: 20px; opacity: 60%; color: inherit"></i></a>
+                  </div>
+                </div>
+          
+          
+                <div class="col noresponsive offset-md-2">
+                  <h5 style="padding-bottom: 20px; font-weight: bold;">Get to Know Us</h5>
+                  <ul class="nav flex-column" style="line-height: 2rem; font-size: 17px;">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color: inherit;">About Us</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">News & Blog</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Careers</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Investors</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Contact Us</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col noresponsive">
+                  <h5 style="padding-bottom: 20px; font-weight: bold;">Customer Service</h5>
+                  <ul class="nav flex-column" style="line-height: 2rem; font-size: 17px;">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Help Center</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">FAQ’s</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Accessibility</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Feedback</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Size Guide</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Payment Method</a></li>
+                  </ul>
+                </div>
+          
+                <div class="col noresponsive">
+                  <h5 style="padding-bottom: 20px; font-weight: bold;">Orders & Returns</h5>
+                  <ul class="nav flex-column" style="line-height: 2rem; font-size: 17px;">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Track Order</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Shipping & Delivery</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Return & Exchange</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0" style="color:inherit">Price Match Guarantee</a>
+                    </li>
+                  </ul>
+                </div>
+              </footer>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center mb-3">
+                <ul class="list-unstyled d-flex" style="gap: 30px;">
+                  <li><a href="#" style="color: inherit; text-decoration: none;">Privacy Policy</a></li>
+                  <li><a href="#" style="color: inherit; text-decoration: none;">Terms of Use</a></li>
+                  <li><a href="#" style="color: inherit; text-decoration: none;">Legal</a></li>
+                  <li><a href="#" style="color: inherit; text-decoration: none;">Site Map</a></li>
+                </ul>
+                <div class="noresponsive">
+                  <img src="https://i0.wp.com/motta.uix.store/wp-content/uploads/2021/12/payment.jpg?w=294&ssl=1" alt="">
+                </div>
+              </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center mt-4">
+                <p>Copyright © 2024 Motta, All rights reserved.</p>
+                <div class="noresponsive">
+                  <ul class="list-unstyled d-flex noresponsive" style="gap: 35px">
+                    <li><a href="#" style="color: inherit; text-decoration: none; font-size: 17px;"> <i
+                          class="fa-solid fa-globe" style="padding-right: 7px;"></i> English</a></li>
+                    <li><a href="#" style="color: inherit; text-decoration: none; font-size: 17px;"> <i
+                          class="fa-solid fa-money-bill" style="padding-right: 7px;"></i> USD</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+          
+          
+            <div style="width: 100%; height: 0.5px; background-color: inherit; opacity: 15%;" class="mt-3">
+              <div class="top d-flex justify-content-between align-items-centerres-noshow mt-3">
+                <div class="res-noshow">
+                  <a href="#" class="d-flex justify-content-center"><i class="fa-solid fa-house"
+                      style="font-size: 20px; color: inherit;"> </i></a>
+                  <p style="font-size: 14px;">Home</p>
+                </div>
+                <div class="res-noshow">
+                  <a href="#" class="d-flex justify-content-center"><i class="fa-solid fa-shop"
+                      style="font-size: 20px;  color: inherit;"></i></a>
+                  <p style="font-size: 14px;">Shop</p>
+                </div>
+                <div class="res-noshow">
+                  <a href="#" class="d-flex justify-content-center"><i class="fa-solid fa-cart-shopping"
+                      style="font-size: 20px;  color: inherit;"></i></a>
+                  <p style="font-size: 14px;">Cart</p>
+                </div>
+                <div class="res-noshow">
+                  <a href="#" class="d-flex justify-content-center"><i class="fa-solid fa-heart"
+                      style="font-size: 20px;  color: inherit;"></i></a>
+                  <p style="font-size: 14px;">Wishlist</p>
+                </div>
+                <div class="res-noshow">
+                  <a href="#" class="d-flex justify-content-center"><i class="fa-solid fa-user"
+                      style="font-size: 20px;  color: inherit;"></i></a>
+                  <p style="font-size: 14px;">Account</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+  
+          
+  <script src="./js/motta.js"></script>
+  </body>
+</html>

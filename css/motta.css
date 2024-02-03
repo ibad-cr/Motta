@@ -1,0 +1,167 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+  body, * {
+    font-family: 'Outfit',Arial,sans-serif;
+  }
+
+    .void-li ul li i {
+      padding-right: 10px;
+      color: #7c818b;
+    }
+
+    .void-li ul li a {
+      font-size: 16px;
+    }
+
+    .box {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #1D2127;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .res-noshow {
+      display: none;
+    }
+
+    .accor-no-see {
+      display: none;
+    } 
+
+    .mybutton-js{
+      background-color: #3449ca;
+      position: fixed;
+      bottom: 50%;
+      right: 0;
+      z-index: 100;
+    }
+    
+
+    @media (max-width: 768px) {
+        .drop-none {
+            display: none;
+        }
+        
+        .wis-1000 {
+          width: 100%;
+        }
+
+        .rounded-image {
+          display: none;
+        }
+
+        .row {
+            padding: 10px;
+        }
+
+        .nowrapp {
+          display: none;
+        }
+
+        .searchh {
+          width: 100%;
+        }
+
+        form {
+          width: 100%;
+        }
+
+        .padddd {
+          padding-right: 330px;
+        }
+
+        .small-res {
+          width: 50%;
+        }
+
+        .noresponsive {
+          display: none;
+        }
+
+        .size100 {
+          width: 33%;
+        }
+
+        .resmar {
+          margin-top: 100px;
+        }
+
+        .reverse-res {
+          display: flex;
+          flex-direction: column-reverse;
+        }
+
+        .margin-res {
+          margin-bottom: 40px;
+        }
+
+        .res-noshow {
+          display: block;
+        }
+
+        .accor-no-see {
+          display: block;
+        }
+    }
+
+
+/* .light, .light header , light main, light footer {
+    background-color: white;
+    color: black;
+}
+
+.dark, .dark header, .dark main, .dark footer {
+    background-color: black;
+    color: white;
+} */
+
+/* .light a {
+    background-color: white;
+    color: black;
+}
+
+.dark a {
+    background-color: black;
+    color: white;
+} */
+
+/* .light .headd {
+    background-color: white;
+    color: black;
+}
+
+.dark .headd {
+    background-color: black;
+    color: white;
+} */
+
+/* .light #headd {
+    background-color: white;
+    color: black;
+}
+
+.dark #headd {
+    background-color: black;
+    color: white;
+} */
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.light i {
+    color: black;
+}
+
+.dark i {
+    color: white;
+}
+
+.dark {
+    background-color: #1b1f22;
+    color: white;
+}
